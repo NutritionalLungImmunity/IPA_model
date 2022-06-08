@@ -9,9 +9,14 @@ to install the model's dependencies in a virtual environment. (The only dependen
 pipenv shell
 ```
 
-To run, enter the virtual environment as above, then
+To run, enter the virtual environment as above, then on linux or mac:
 ```
 PYTHONPATH=. python edu/uf/main/Model.py
+```
+or on windows:
+```
+set PYTHONPATH=.
+python edu/uf/main/Model.py
 ```
 
 ## Contact Information
